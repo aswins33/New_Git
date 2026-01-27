@@ -12,3 +12,5 @@ print(int(r))
 
 r={"place":"kochi","time":12.00,}
 print(list(r))
+
+input("enter a name;")
