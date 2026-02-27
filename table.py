@@ -1,8 +1,13 @@
-num1=int(input("enter a number : "))
-start=int(input("enter starting number : "))
-end=int(input("enter ending number :" ))
-for h in range(start,end):
-    if h%num1==0:
-        print(h)
+"""num=int(input("enter a number: "))
+for i in range(1,11):
+    table=num*i
+    print(f"{num} * {i} = {table}")
 
-    
+    #(num,"*" ,i,"=",num*i)"""
+
+import copy 
+a=[[2,4,6],[54,33,87]]
+b= copy.copy(a)
+
+b[0][1]=10
+print(a[0])
