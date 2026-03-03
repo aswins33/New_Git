@@ -1,0 +1,33 @@
+class Animal:
+    def speak(self):
+        print("Animal makes a sound")
+
+class Dog(Animal):
+    def speak(self):
+        print("Dog barks")
+
+class Cat(Animal):
+    def speak(self):
+        print("Cat meows")
+
+animals = [Dog(), Cat()]
+
+for animal in animals:
+    animal.speak()
+
+
+# with fuction
+
+class Bird:
+    def fly(self):
+        print("Bird can fly")
+
+class Airplane:
+    def fly(self):
+        print("Airplane can fly")
+
+def make_it_fly(obj):
+    obj.fly()
+
+make_it_fly(Bird())
+make_it_fly(Airplane())
