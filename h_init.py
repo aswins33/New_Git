@@ -1,20 +1,9 @@
-# Parent class
-class Animal:
-    def __init__(self):
-        print("Animal constructor called")
-
-# Child class 1
-class Dog(Animal):
-    def __init__(self):
-        super().__init__ 
-        print("Dog constructor called")
-
-# Child class 2
-class Cat(Animal):
-    def __init__(self):
-        super().__init__ 
-        print("Cat constructor called")
+from tesna_2.multiple import *
+from tesna_2.add import *
 
 
-d = Dog()
-c = Cat()
+print(multiply(6,2))
+print(subtract(7,2))
+
+print(add(5,4))
+print(division(4,2))
